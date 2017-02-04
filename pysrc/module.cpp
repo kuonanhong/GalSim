@@ -71,7 +71,7 @@ namespace galsim {
         void pyExportInteg();
     } // namespace integ
 
-    namespace bessel {
+    namespace math {
         void pyExportBessel();
     } // namespace integ
 
@@ -108,5 +108,5 @@ BOOST_PYTHON_MODULE(_galsim) {
     galsim::integ::pyExportInteg();
     galsim::pyExportTable();
     galsim::pyExportTable2D();
-    galsim::bessel::pyExportBessel();
+    galsim::math::pyExportBessel();
 }
